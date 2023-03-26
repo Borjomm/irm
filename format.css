@@ -1,0 +1,43 @@
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  overflow-x: auto;
+  border-spacing: 0;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+#segment {
+    border-right-width: 0px;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+th {
+  top: 0;
+  background: #fff;
+  vertical-align:center;
+}
+
+th:last-child,
+td:last-child {
+  border-right-width: 0;
+}
+
+tr:last-child td {
+  border-bottom-width: 0;
+}
